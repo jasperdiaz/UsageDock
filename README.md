@@ -27,8 +27,8 @@ UsageDock never makes network requests. It reads small local files and shows onl
 
 ## Install
 
-Run the installer built at
-`src-tauri\target\release\bundle\nsis\UsageDock_0.1.0_x64-setup.exe`.
+Download `UsageDock_0.1.0_x64-setup.exe` from the [latest release](https://github.com/jasperdiaz/UsageDock/releases/latest) and run it.
+(If you build it yourself, it's at `src-tauri\target\release\bundle\nsis\`.)
 It installs per user, with no admin rights needed. WebView2 is already part of Windows 11.
 
 Only one copy runs at a time. Launching it again brings the running copy forward.
