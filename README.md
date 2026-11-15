@@ -2,6 +2,20 @@
 
 A small Windows 11 desktop gadget that shows your AI plan usage (Claude, Codex, and ChatGPT where possible) from the system tray and a floating widget, without opening a browser tab.
 
+<p align="center">
+  <img src="docs/launch.gif" width="480" alt="UsageDock launching: a splash screen in the middle of the screen, then the widget glides up to its dock at the top">
+</p>
+
+<p align="center">
+  <img src="docs/widget-dark.png" width="660" alt="The widget docked top-centre: Claude and Codex dials for the 5-hour and weekly limits, with a T− countdown to the next reset">
+</p>
+
+| Dashboard | Launch splash |
+| :---: | :---: |
+| <img src="docs/dashboard.png" width="360" alt="Dashboard showing Claude, ChatGPT and Codex usage with live status"> | <img src="docs/splash-dark.png" width="400" alt="Launch splash on a dark background"><br><br><img src="docs/splash-light.png" width="400" alt="Launch splash on a light background"> |
+
+*Screenshots are of the real app with real usage data.*
+
 - **Tray icon**: left-click opens the dashboard next to the clock. Right-click opens a menu with Show dashboard, Compact widget, Always on top, Refresh, Settings and Quit. The tooltip shows the current percentages.
 - **Compact widget**: a launch-telemetry style instrument panel. Each provider with data gets its mark and two dials: 5-hour and weekly, with ticks at your notification thresholds and a `T−` countdown to the reset. Dials are white, turning amber from 80% and red from 95%. The widget sizes itself to the providers that have data (two providers ≈ 165×170).
   - **Docking**: bottom-right by default. Pick any corner, edge centre or top/bottom centre in **Settings → Widget → Dock**, or drag the widget near one of those spots and it snaps there. Dropped elsewhere, it stays put ("free").
