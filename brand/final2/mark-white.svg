@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- UsageDock mark: the dial split into two equal halves by a straight divide at 12 o'clock. -->
+  <path fill="#fff" d="M 48.80 219.20 A 112 112 0 0 1 112.00 29.15 L 112.00 86.33 A 56 56 0 0 0 88.40 179.60 Z"/><path fill="#fff" d="M 144.00 29.15 A 112 112 0 0 1 207.20 219.20 L 167.60 179.60 A 56 56 0 0 0 144.00 86.33 Z"/>
+</svg>

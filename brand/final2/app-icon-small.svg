@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+  <!-- UsageDock tile: dial centre (8,8.7), ring R5.6/r2.8, 270 deg open at the bottom; 2-unit divide at 12 o'clock. -->
+  <rect x="0.5" y="0.5" width="15" height="15" rx="3.5" fill="#000"/><path fill="#fff" d="M 4.040 12.660 A 5.6 5.6 0 1 1 11.960 12.660 L 9.980 10.680 A 2.8 2.8 0 1 0 6.020 10.680 Z"/><rect x="7" y="2.60" width="2" height="3.80" fill="#000"/>
+</svg>

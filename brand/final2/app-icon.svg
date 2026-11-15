@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- UsageDock app icon. 16-unit grid x64: tile 15u rounded 3.5u; dial centre (8,8.7),
+       ring R5.6/r2.8, 270 deg open at the bottom; 2u divide at 12 o'clock. -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1e1e22"/><stop offset="1" stop-color="#000"/></linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0.3"/><stop offset="0.45" stop-color="#fff" stop-opacity="0.05"/><stop offset="1" stop-color="#fff" stop-opacity="0.03"/></linearGradient>
+  </defs>
+  <rect x="32" y="32" width="960" height="960" rx="224" fill="url(#bg)"/>
+  <rect x="34" y="34" width="956" height="956" rx="222" fill="none" stroke="url(#rim)" stroke-width="4"/>
+  <path fill="#fff" d="M 258.57 810.23 A 358.4 358.4 0 0 1 448.00 204.16 L 448.00 389.42 A 179.2 179.2 0 0 0 385.29 683.51 Z"/><path fill="#fff" d="M 576.00 204.16 A 358.4 358.4 0 0 1 765.43 810.23 L 638.71 683.51 A 179.2 179.2 0 0 0 576.00 389.42 Z"/>
+</svg>

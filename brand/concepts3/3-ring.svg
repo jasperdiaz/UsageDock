@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- 3: Level Ring. The app's dial alone: ring R112/r62 about (128,134),
+       270° open at the bottom, 18° notch at the 70% level. -->
+  <path d="M 48.80 213.20 A 112 112 0 1 1 208.57 56.20 L 172.60 90.93 A 62 62 0 1 0 84.16 177.84 Z" fill="#000"/><path d="M 228.66 84.90 A 112 112 0 0 1 207.20 213.20 L 171.84 177.84 A 62 62 0 0 0 183.73 106.82 Z" fill="#000"/>
+</svg>

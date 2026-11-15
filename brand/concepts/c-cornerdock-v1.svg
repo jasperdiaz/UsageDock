@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- C: Corner Dock. A 270° dial (r62, 24 stroke, 70% filled) tucked into a
+       screen-corner bracket (16 stroke, r30 corner) at bottom-right. -->
+  <path d="M 72.2 155.8 A 62 62 0 1 1 166.2 75.6" fill="none" stroke="#000" stroke-width="24"/>
+  <path d="M 166.2 75.6 A 62 62 0 0 1 159.8 155.8" fill="none" stroke="#000" stroke-width="7"/>
+  <path d="M 220 40 V 190 A 30 30 0 0 1 190 220 H 40" fill="none" stroke="#000" stroke-width="16"/>
+</svg>

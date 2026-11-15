@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- 3: Docked Gauge. The heavy dial's two ends run down into a solid base,
+       so dial and dock are one piece; 18° notch marks the level. -->
+  <path d="M 36 236 L 36 212 L 57.29 186.71 A 100 100 0 1 1 199.93 46.53 L 166.84 78.49 A 54 54 0 1 0 89.82 154.18 L 104 212 L 152 212 L 166.18 154.18 A 54 54 0 0 0 176.53 92.33 L 217.88 72.16 A 100 100 0 0 1 198.71 186.71 L 220 212 L 220 236 Z" fill="#000"/>
+</svg>

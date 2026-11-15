@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- B: Launch U. 44u left stem and bowl (R88/r44 about 128,140); the right
+       arm sweeps outward and tapers to a point, like a climbing trajectory. -->
+  <path d="M 40 36 V 140 A 88 88 0 0 0 216 140 Q 220 72 238 22 Q 184 76 172 140 A 44 44 0 0 1 84 140 V 36 Z" fill="#000"/>
+</svg>

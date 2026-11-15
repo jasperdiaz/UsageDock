@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- A v2: Heavy Dial, notch widened to 16 degrees for small sizes. -->
+  <path d="M 54.46 189.54 A 104 104 0 1 1 202.81 43.76 L 168.28 77.10 A 56 56 0 1 0 88.40 155.60 Z" fill="#000"/>
+  <path d="M 219.83 67.17 A 104 104 0 0 1 201.54 189.54 L 167.60 155.60 A 56 56 0 0 0 177.45 89.71 Z" fill="#000"/>
+  <rect x="84" y="200" width="88" height="32" fill="#000"/>
+</svg>

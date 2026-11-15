@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- UsageDock mark, "Dock Dial". Construction: dial centre (128,120), r84,
+       270° sweep open at the bottom (135°→45°). Level arc 26u to 70% (324°),
+       empty track 10u; dock bar 88×20 centred under the opening. -->
+  <path d="M 68.6 179.4 A 84 84 0 1 1 196 70.6" fill="none" stroke="#fff" stroke-width="26"/>
+  <path d="M 196 70.6 A 84 84 0 0 1 187.4 179.4" fill="none" stroke="#fff" stroke-width="10"/>
+  <rect x="84" y="200" width="88" height="20" fill="#fff"/>
+</svg>

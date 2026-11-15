@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- C v3: Launch Dial. Heavy ring R96/r50 about (116,140) from 100° to 300°
+       (200° sweep); at the level point it breaks out into a tapered launch arc. -->
+  <path d="M 99.33 234.54 A 96 96 0 1 1 164.00 56.86 Q 200 32 242 20 Q 190 52 141.00 96.70 A 50 50 0 1 0 107.32 189.24 Z" fill="#000"/>
+</svg>

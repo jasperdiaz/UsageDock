@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- A: Heavy Dial. Solid ring R104/r56 about (128,116), 270° open at the
+       bottom; a 10° notch at 70% marks the level; solid dock block below. -->
+  <path d="M 54.46 189.54 A 104 104 0 1 1 206.49 47.77 L 170.26 79.26 A 56 56 0 1 0 88.40 155.60 Z" fill="#000"/>
+  <path d="M 217.15 62.44 A 104 104 0 0 1 201.54 189.54 L 167.60 155.60 A 56 56 0 0 0 176.00 87.16 Z" fill="#000"/>
+  <rect x="84" y="200" width="88" height="32" fill="#000"/>
+</svg>

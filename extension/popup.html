@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      :root { color-scheme: dark; }
+      body { margin: 0; width: 260px; font: 12px/1.4 "Segoe UI Variable Text", "Segoe UI", system-ui, sans-serif; background: #111216; color: #ececef; }
+      main { padding: 12px; }
+      h1 { font-size: 13px; margin: 0 0 8px; font-weight: 600; }
+      .row { display: flex; justify-content: space-between; gap: 8px; padding: 6px 0; border-top: 1px solid rgb(255 255 255 / 0.07); }
+      .muted { color: #8b8e96; }
+      .ok { color: #5fd3a0; }
+      .err { color: #f0605d; }
+      a { color: #8f9bff; text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      .links { display: flex; flex-direction: column; gap: 4px; margin-top: 10px; }
+      p { margin: 8px 0 0; }
+      .opt { align-items: center; cursor: pointer; }
+      .opt input { accent-color: #8f9bff; margin: 0; }
+      button { font: inherit; color: #ececef; background: rgb(255 255 255 / 0.08); border: 1px solid rgb(255 255 255 / 0.1); border-radius: 6px; padding: 5px 8px; cursor: pointer; text-align: left; }
+      button:hover { background: rgb(255 255 255 / 0.12); }
+      button:disabled { opacity: 0.6; cursor: default; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>UsageDock Connector</h1>
+      <div id="rows"></div>
+      <label class="row opt"><span>Sync Claude every 15 min</span><input type="checkbox" id="auto" /></label>
+      <div class="links">
+        <button id="now" type="button">Sync now</button>
+        <a href="https://claude.ai/settings/usage" target="_blank" rel="noreferrer">Open Claude usage page</a>
+      </div>
+      <p class="muted" id="last"></p>
+      <p class="muted">Opens Claude's usage page in a minimized window, reads the numbers shown, then closes it. Data goes only to the UsageDock app on this PC.</p>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>

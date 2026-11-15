@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "UsageDock Connector",
+  "version": "0.2.0",
+  "description": "Keeps UsageDock in sync with your Claude usage page, checking it in a minimized window every 15 minutes. Local only.",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsZ7AzF5cXRaES5hCWU+pUYq0E/Jrs4CZjyzWuS277zbrQUhqVii8Qil4E97CW/Arrjae+oxk41ZPKqKxqPvOQ2Za37z6qh8GKTQRYpTeEaMKTR8JuHo7QcGYqwghzc75OCMQx08xWiUCshuTEzD3jSjhLxunnJf3C5hkhtDQWGliSuBUziF/rLADdpk9hUMZ5s/IrhYl4+MLNkhJurXcEjjXK1OAxjj6k1eIGIz8fbzJRTi43iWGyB5DX6BQfuCVtkjCsFksc38kdnJwCD1/+2haceukguQRkwBREo0wwJTbNlTbvymrzkc0fVDHxKkGx4gGujlCJLLPAyRDUrLfTQIDAQAB",
+  "permissions": ["nativeMessaging", "storage", "alarms"],
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [
+    {
+      "matches": ["https://claude.ai/*", "https://chatgpt.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": { "default_title": "UsageDock Connector", "default_popup": "popup.html" },
+  "icons": { "32": "icon32.png", "128": "icon128.png" }
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- C: Trajectory Disc. Solid disc r92 about (128,132); a tapered crescent
+       swoosh slices through it (evenodd), its tips solid outside the disc. -->
+  <path fill-rule="evenodd" fill="#000" d="M 128 40 A 92 92 0 1 1 127.99 40 Z
+    M 22 186 A 130 130 0 0 0 236 36 A 190 190 0 0 1 22 186 Z"/>
+</svg>

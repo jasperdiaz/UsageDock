@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- A: Dock Dial. 270° dial (r84, 26 stroke), 70% filled, the empty
+       remainder as a thin track; a dock bar closes the dial's open base. -->
+  <path d="M 68.6 179.4 A 84 84 0 1 1 196 70.6" fill="none" stroke="#000" stroke-width="26"/>
+  <path d="M 196 70.6 A 84 84 0 0 1 187.4 179.4" fill="none" stroke="#000" stroke-width="8"/>
+  <rect x="84" y="200" width="88" height="20" fill="#000"/>
+</svg>
